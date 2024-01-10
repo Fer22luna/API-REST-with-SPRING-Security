@@ -38,20 +38,20 @@ public class BookController {
         return ResponseEntity.ok(bookService.findById(id));     
     }
     
-        @PreAuthorize("hasRole('ADMIN')")
+
         @PostMapping(value = "/create")
         public ResponseEntity<Book> createBook(@RequestBody Book book){
             return ResponseEntity.status(HttpStatus.CREATED).body(bookService.createNewBook(book));
         }
         
-        @PreAuthorize("hasRole('ADMIN')")
+        
         @PutMapping(value = "/update/{id}")
         public ResponseEntity<Book> updateBook(@PathVariable Integer id,@RequestBody Book book){
             
             return ResponseEntity.ok(bookService.updateBook(book, id));
         }
         
-        @PreAuthorize("hasRole('ADMIN')")
+        
         @DeleteMapping(value = "/delete/{id}")
         public ResponseEntity<Object> deleteBookById(@PathVariable("id") Integer id){
             
