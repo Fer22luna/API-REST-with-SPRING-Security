@@ -16,4 +16,3 @@ For this project i use :
 - ![Static Badge](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) 
 
 
--![img](https://thumbs.dreamstime.com/z/animales-3602292.jpg?ct=jpeg)
