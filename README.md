@@ -17,21 +17,43 @@ For this project we use :
 
 ## Results
 
-TThe non protected endpoint:
+The non-protected endpoints:
 
->  Endpoint --> /api/books/{id}
+>  Http://localhost:8080/api/auth/login
+>
+![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/login.png)
+
+>  Http://localhost:8080/api/auth/register
+>
+![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/register.png)
+
+
+> The user registration is recorded in the database.
+
+![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/data.png)
+
+>  Http://localhost:8080/api/books/{id}
+>
 
 ![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/getById.png)
 
-> Descripcion del metodo
+> Http://localhost:8080/api/books/
+> 
 
 ![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/findAll.png)
 
+> Http://localhost:8080/api/books/create
+> 
+
 ![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/create.png)
-![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/data.png)
+
+
+> Http://localhost:8080/api/books/delete/{id}
+> 
 ![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/delete.png)
+
+> Http://localhost:8080/api/books/update/{id}
+> 
 ![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/update.png)
-![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/login.png)
-![img](https://raw.githubusercontent.com/Fer22luna/API-REST-with-SPRING-Security/main/src/main/resources/static/register.png)
 
 
